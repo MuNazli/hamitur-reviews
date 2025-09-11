@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 // Buraya kendi Google API Key'inizi yazın
-const API_KEY = "DEIN_GOOGLE_API_KEY";
+const API_KEY = "AIzaSyCen4qB5TbesIjKqlLYSrFLHsuX5hXyTIY";
 
 app.get("/reviews", async (req, res) => {
   const placeId = req.query.place_id; // ?place_id=xxxx
